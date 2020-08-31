@@ -1,5 +1,8 @@
-from tkinter import *
+
 import keyboard
+import pythoncom
+from PyHook3 import cpyHook,HookConstants
+from tkinter import *
 from macro import mouse_macro
 
 # Functions

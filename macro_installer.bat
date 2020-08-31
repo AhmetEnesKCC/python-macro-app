@@ -20,7 +20,6 @@ echo upgrading pip :
 
 pip install --upgrade pip
 
-
 echo Packages 5 / 7 installing : Python Keyboard 
 
 pip install keyboard
@@ -35,7 +34,9 @@ pip install pywin32
 
 echo Starting App  
 
-start app.py
+python macro.py
+
+python app.py
 
 
 
